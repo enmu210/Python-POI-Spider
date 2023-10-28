@@ -36,7 +36,7 @@ if __name__ == '__main__':
         all_poi_type.append(other_type)
         other_type = input("添加其他POI类型（留空结束）：")
 
-    ak = ""#百度API应用Key
+    ak = "K6gvNDQnNTKHPd8OjezaCaCIaVuodX91"#百度API应用Key
     # 百度API接口
     url = "http://api.map.baidu.com/place/v2/search?page_size=20&query={}&region={}&output=json&page_num={}&ak={}"
 
